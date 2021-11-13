@@ -22,5 +22,7 @@ Online machine learning algorithm
 
 ## Team Members and Responsibilities
 Jiaman (Betty) Wu: jiaman.wu@duke.edu
+
 Lujun (Lucas) Zhang: lujun.zhang@duke.edu
+
 Mengyi (Ashley) Hu: mengyi.hu@duke.edu
