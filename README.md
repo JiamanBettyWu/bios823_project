@@ -14,7 +14,8 @@ Online machine learning algorithm
 
 ## Project Plan
 - Exploratory Data Analysis 
-    There are 46520 subject involved with 38983 of them had 1 admission to ICU and 7537 of them have multiple admissions to ICU.
+
+    -There are 46520 subject involved with 38983 of them had 1 admission to ICU and 7537 of them have multiple admissions to ICU.
 - Feature Engineering
 - Model training
 - Model Evaluation
