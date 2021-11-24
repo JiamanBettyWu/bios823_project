@@ -63,8 +63,7 @@ Online machine learning algorithm
     ![age distribution](age_density.png)
                     
     -Distribution of ICU stay in days
-    ![distribution](icu_stay_density.png)
-    
+
     Lab items:
                     
      ITEMID | LABEL | FLUID | CATEGORY 
