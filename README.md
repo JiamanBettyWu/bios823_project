@@ -93,7 +93,9 @@ Online machine learning algorithm
         Protected health information was removed, such as diagnostic reports and physician notes.
    
    -train and test split by ratio = 0.2. The training data contains 47180 rows.
+   
    -There is missingness in the top ten ICD9_code. We replaced NA with 0.
+   
    -Scaled ICU_STAY_DAYS, ICD9_code, Proportion of abnormal lab tests for multilayer perceptron.
 
 - Model training
