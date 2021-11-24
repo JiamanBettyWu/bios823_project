@@ -108,7 +108,7 @@ Online machine learning algorithm
 
 - Model Evaluation
 
-- Model Deployment
+- Model Interpretation
 
 ## Team Members and Responsibilities
 Jiaman (Betty) Wu: jiaman.wu@duke.edu
