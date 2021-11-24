@@ -120,6 +120,8 @@ Online machine learning algorithm
     -Nov 1: confirmed project topic applied for data access
     
     -Nov 5: went through the whole database. Confirmed primary outcome.
+    
+    -We had regular group meetings each week to discuss our weekly plan for this project.
 
 ## Team Members and Responsibilities
 
@@ -134,5 +136,3 @@ Lucas cleaned and prepared the data, derived the defition of the variables of in
 Mengyi (Ashley) Hu: mengyi.hu@duke.edu
 
 Ashley trained the logistic regerssion model, constructed random forest model and tuned its hyperparameters, and interpreted results of these models.
-
-We had regular group meetings each week to discuss our weekly plan for this project.
