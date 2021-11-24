@@ -100,19 +100,36 @@ Online machine learning algorithm
 
 - Model training
    
-    -Logistic regression: 
+    -Logistic regression
    
-    -Random forest:
+    -Random forest
     
-    -Multilayer perceptron:
+    -Multilayer perceptron
 
 - Model Evaluation
 
 - Model Interpretation
 
+- Timeline
+
+    -Oct 20: confirmed group members
+    
+    -Nov 1: confirmed project topic applied for data access
+    
+    -Nov 5: went through the whole database. Confirmed primary outcome.
+
 ## Team Members and Responsibilities
+
 Jiaman (Betty) Wu: jiaman.wu@duke.edu
+
+Betty constructed the multilayer perceptron deep learning model, tuned its hyperparameters and interpreted the results. She also  
 
 Lujun (Lucas) Zhang: lujun.zhang@duke.edu
 
+Lucas cleaned and prepared the data, derived the defition of the variables of interests, combined the results and wrote the documentation.
+
 Mengyi (Ashley) Hu: mengyi.hu@duke.edu
+
+Ashley trained the logistic regerssion model, constructed random forest model and tuned its hyperparameters, and interpreted results of these models.
+
+We had regular group meetings each week to discuss our weekly plan for this project.
