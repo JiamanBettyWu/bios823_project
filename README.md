@@ -59,6 +59,8 @@ Online machine learning algorithm
                TOTAL_ITEMID_code (top 20 frequent lab test),
                
                ABNORMAL_ITEMID_code (proportion of abnormal lab test for the above 20 procedures).
+    -Distribution of age
+    ![age distribution](age_density.png)
                     
      Lab items:
                     
