@@ -16,21 +16,35 @@ Online machine learning algorithm
 
 ## Project Plan
 - Exploratory Data Analysis
+    
     -Table incldued: ADMISSION.gz.csv, DIAGNOSES_ICD.gv.csv, LABEVENTS.gz.csv  
+    
     -There are 46520 subject involved with 38983 of them had 1 admission to ICU and 7537 of them have 
      multiple admissions to ICU.
+    
     -Variables of interest:
+        
         ID variables: SUBJECT_ID, HADM_ID,
+        
         Output: HOSPITAL_EXPIRE_FLAG: Boolean variable obtained from ADMISSIONS table. This variable indicates 
                whether the patient passed away during hospitalization.
+        
         Input: Ethnicity,
+               
                DIAGNOSIS, 
+               
                GENDER, 
+               
                DOB, 
+               
                AGE, 
+               
                ICU_STAY_DAYS (total days of ICU stays during hospitalization for each HADM_ID, 
+               
                MULTI_ENTRY_ICU (boolean variable, set True if patients have entered the ICU before this hospital admission)
+               
                ICD9_code (top 10 frequent procedures or diagnosis),
+                    
                     ICD9 diagnosis:
                     3961	Extracorporeal circulat
                     3891	Arterial catheterization	
@@ -42,8 +56,11 @@ Online machine learning algorithm
                     9672	Cont inv mec ven 96+ hrs	
                     9904	Packed cell transfusion	
                     9955	Vaccination NEC
+               
                TOTAL_ITEMID_code (top 20 frequent lab test),
+               
                ABNORMAL_ITEMID_code (proportion of abnormal lab test for the above 20 procedures).
+                    
                     Lab items:
                     ITEMID	LABEL               FLUID	  CATEGORY	
                     50820	pH	     	        Blood     Blood Gas	
