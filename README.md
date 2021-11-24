@@ -60,30 +60,30 @@ Online machine learning algorithm
                
                ABNORMAL_ITEMID_code (proportion of abnormal lab test for the above 20 procedures).
                     
-                    Lab items:
+     Lab items:
                     
-                    | ITEMID | LABEL | FLUID | CATEGORY |
-                    | ------------- | ------------- | ------------- | ------------- |
-                    | 50820  | pH | Blood | Blood Gas|
-                    | 50868  | CAnion Gap | Blood | Chemistry |
-                    | 50882  | Bicarbonate| Blood | Chemistry |
-                    | 50902	 | Chloride	  | Blood |  Chemistry|
-                    | 50912	| Creatinine |Blood	 | Chemistry |
-                    | 50931	| Glucose	 |  Blood |	 Chemistry |
-                    | 50960	| Magnesium	 |  Blood |	  Chemistry|
-                    | 50970	| Phosphate	|  Blood|  Chemistry	|
-                    | 50971	| Potassium	|  Blood|Chemistry|
-                    | 50983 |	Sodium|	   Blood|Chemistry|
-                    |51006	|Urea Nitrogen|  Blood|	Chemistry|
-                    |51221	|Hematocrit	 |   Blood|	 Hematology|
-                    | 51222	|Hemoglobin	 |  Blood	|  Hematology|
-                    |51248	| MCH	|  Blood|Hematology|
-                    |51249	|MCHC	 |  Blood|	Hematology|
-                    |51250	|MCV	|  Blood|Hematology|
-                    |51265	|Platelet Count	| Blood|Hematology|
-                    |51277	|RDW  |  Blood	|  Hematology|
-                    |51279	|Red Blood Cells|Blood|	Hematology|
-                    |51301	|White Blood Cells|	Blood|Hematology|
+     ITEMID | LABEL | FLUID | CATEGORY 
+    ------------- | ------------- | ------------- | ------------- 
+    50820  | pH | Blood | Blood Gas
+    50868  | CAnion Gap | Blood | Chemistry 
+    50882  | Bicarbonate| Blood | Chemistry 
+    50902  | Chloride	  | Blood |  Chemistry
+    50912  | Creatinine |Blood	 | Chemistry 
+    50931  | Glucose	 |  Blood |	 Chemistry 
+    50960  | Magnesium	 |  Blood |	  Chemistry
+    50970	| Phosphate	|  Blood|  Chemistry	
+    50971	| Potassium	|  Blood|Chemistry
+    0983 |	Sodium|	   Blood|Chemistry
+    51006	|Urea Nitrogen|  Blood|	Chemistry
+    51221	|Hematocrit	 |   Blood|	 Hematology
+    51222	|Hemoglobin	 |  Blood	|  Hematology
+    51248	| MCH	|  Blood|Hematology
+    51249	|MCHC	 |  Blood|	Hematology
+    51250	|MCV	|  Blood|Hematology
+    51265	|Platelet Count	| Blood|Hematology
+    51277	|RDW  |  Blood	|  Hematology
+    51279	|Red Blood Cells|Blood|	Hematology
+    51301	|White Blood Cells|	Blood|Hematology
                     
                     
      
