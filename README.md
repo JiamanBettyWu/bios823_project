@@ -44,46 +44,49 @@ Online machine learning algorithm
                MULTI_ENTRY_ICU (boolean variable, set True if patients have entered the ICU before this hospital admission)
                
                ICD9_code (top 10 frequent procedures or diagnosis),
-                    
-                    ICD9 diagnosis:
-                    3961	Extracorporeal circulat
-                    3891	Arterial catheterization	
-                    3893	Venous cath NEC	
-                    8856	Coronar arteriogr-2 cath	
-                    9604	Insert endotracheal tube	
-                    966	    Entral infus nutrit sub	
-                    9671	Cont inv mec ven <96 hrs	
-                    9672	Cont inv mec ven 96+ hrs	
-                    9904	Packed cell transfusion	
-                    9955	Vaccination NEC
+                   
+                    3961: Extracorporeal circulat
+                    3891: Arterial catheterization	
+                    3893: Venous cath NEC	
+                    8856: Coronar arteriogr-2 cath	
+                    9604: Insert endotracheal tube	
+                    966: Entral infus nutrit sub	
+                    9671: Cont inv mec ven <96 hrs	
+                    9672: Cont inv mec ven 96+ hrs	
+                    9904: Packed cell transfusion	
+                    9955: Vaccination NEC
                
                TOTAL_ITEMID_code (top 20 frequent lab test),
                
                ABNORMAL_ITEMID_code (proportion of abnormal lab test for the above 20 procedures).
                     
                     Lab items:
-                    ITEMID	LABEL               FLUID	  CATEGORY	
-                    50820	pH	     	        Blood     Blood Gas	
-                    50868	Anion Gap	        Blood	  Chemistry	
-                    50882	Bicarbonate	        Blood	  Chemistry	
-                    50902	Chloride	        Blood	  Chemistry	
-                    50912	Creatinine	        Blood	  Chemistry	
-                    50931	Glucose	            Blood	  Chemistry	
-                    50960	Magnesium	        Blood	  Chemistry	
-                    50970	Phosphate	        Blood	  Chemistry	
-                    50971	Potassium	        Blood	  Chemistry	
-                    50983	Sodium	            Blood	  Chemistry	
-                    51006	Urea Nitrogen       Blood	  Chemistry	
-                    51221	Hematocrit	        Blood	  Hematology	
-                    51222	Hemoglobin	        Blood	  Hematology	
-                    51248	MCH	                Blood	  Hematology	
-                    51249	MCHC	            Blood	  Hematology	
-                    51250	MCV	                Blood	  Hematology	
-                    51265	Platelet Count	    Blood	  Hematology	
-                    51277	RDW         	    Blood	  Hematology	
-                    51279	Red Blood Cells	    Blood	  Hematology	
-                    51301	White Blood Cells	Blood	  Hematology
-    
+                    
+                    | ITEMID | LABEL | FLUID | CATEGORY |
+                    | ------------- | ------------- | ------------- | ------------- |
+                    | 50820  | pH | Blood | Blood Gas|
+                    | 50868  | CAnion Gap | Blood | Chemistry |
+                    | 50882  | Bicarbonate| Blood | Chemistry |
+                    | 50902	 | Chloride	  | Blood |  Chemistry|
+                    | 50912	| Creatinine |Blood	 | Chemistry |
+                    | 50931	| Glucose	 |  Blood |	 Chemistry |
+                    | 50960	| Magnesium	 |  Blood |	  Chemistry|
+                    | 50970	| Phosphate	|  Blood|  Chemistry	|
+                    | 50971	| Potassium	|  Blood|Chemistry|
+                    | 50983 |	Sodium|	   Blood|Chemistry|
+                    |51006	|Urea Nitrogen|  Blood|	Chemistry|
+                    |51221	|Hematocrit	 |   Blood|	 Hematology|
+                    | 51222	|Hemoglobin	 |  Blood	|  Hematology|
+                    |51248	| MCH	|  Blood|Hematology|
+                    |51249	|MCHC	 |  Blood|	Hematology|
+                    |51250	|MCV	|  Blood|Hematology|
+                    |51265	|Platelet Count	| Blood|Hematology|
+                    |51277	|RDW  |  Blood	|  Hematology|
+                    |51279	|Red Blood Cells|Blood|	Hematology|
+                    |51301	|White Blood Cells|	Blood|Hematology|
+                    
+                    
+     
 -Feature engineering:
     -de-identification: 
         Removed patient name, telephone number and address from ADMISSIONs.gz.csv tabel.
