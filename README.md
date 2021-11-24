@@ -60,7 +60,7 @@ Online machine learning algorithm
                
                ABNORMAL_ITEMID_code (proportion of abnormal lab test for the above 20 procedures).
     -Distribution of age
-    ![age distribution](age_density.png=450x250)
+    ![age distribution](age_density.png)
                     
      Lab items:
                     
