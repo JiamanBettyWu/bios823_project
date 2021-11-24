@@ -91,13 +91,17 @@ Online machine learning algorithm
         approximate seasonality were conserved.
         Patients > 89 yrs appear with ages of over 300 yrs.
         Protected health information was removed, such as diagnostic reports and physician notes.
-    -train and test split by ratio = 0.2. The training data contains 47180 rows.
-    -There is missingness in the top ten ICD9_code. We replaced NA with 0.
-    -Scaled ICU_STAY_DAYS, ICD9_code, Proportion of abnormal lab tests for multilayer perceptron.
+   
+   -train and test split by ratio = 0.2. The training data contains 47180 rows.
+   -There is missingness in the top ten ICD9_code. We replaced NA with 0.
+   -Scaled ICU_STAY_DAYS, ICD9_code, Proportion of abnormal lab tests for multilayer perceptron.
 
 - Model training
+   
     -Logistic regression: 
+   
     -Random forest:
+    
     -Multilayer perceptron:
 
 - Model Evaluation
