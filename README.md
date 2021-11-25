@@ -115,6 +115,7 @@ Online machine learning algorithm
     -Multilayer perceptron
 
 - Model Evaluation
+
 |           | Logistics regression | Random Forest |  MLP |
 |:---------:|:--------------------:|:-------------:|:----:|
 |    AUC    |         0.62         |      0.63     | 0.71 |
