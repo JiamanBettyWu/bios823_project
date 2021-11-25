@@ -115,6 +115,13 @@ Online machine learning algorithm
     -Multilayer perceptron
 
 - Model Evaluation
+|           | Logistics regression | Random Forest |  MLP |
+|:---------:|:--------------------:|:-------------:|:----:|
+|    AUC    |         0.62         |      0.63     | 0.71 |
+|  Accuracy |         0.90         |      0.92     | 0.92 |
+|    F1     |         0.36         |      0.40     | 0.55 |
+| Precision |         0.56         |      0.86     | 0.71 |
+|   Recall  |         0.26         |      0.26     | 0.44 |
 
 - Model Interpretation
 
